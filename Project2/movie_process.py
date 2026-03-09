@@ -94,8 +94,3 @@ def recommend(movie, top_n=5):
 
 pickle.dump(new,open('movie_list.pkl','wb'))
 pickle.dump(similarity,open('similarity.pkl','wb'))
-
-
-
-temp = recommend('Avatar',7)
-print(temp)
